@@ -1,5 +1,5 @@
 * {
-    color: white;
+    color: #ECEFF1;
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
 }
@@ -7,22 +7,40 @@
 html {
     width: 100%;
     height: 100%;
-    background-color: #4CAF50;
+    background-color: #607D8B;
     text-align: center;
 }
 
 h1 {
     font-size: 80px;
     font-weight: 500;
+
 }
 
+header{
+    display: block;
+    padding: 0px 0px 70px 0px;
+}
+
+#horzNav {
+    display: block;
+    padding: 10px 150px 10px 150px;
+    background: #78909C;
+}
+
+a:hover{ color: #CCFF90 }
+a:active { color: #A7FFEB }
+
 .wrapper {
-    position: absolute;
-    max-width: 80%;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+
+
+    max-width: 60%;
+    margin:0 auto;
+}
+
+footer {
+    clear:both;
+    background: #78909C;
+    color: white;
+    padding: 10px;
 }
